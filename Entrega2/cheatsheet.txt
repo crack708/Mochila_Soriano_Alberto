@@ -1,0 +1,52 @@
+COMANDOS BASH
+--------------------------------------------
+
+MOSTRAR
+////////////////////////////////////////////////////////////////////////
+ls   //lista archivos en el directorio
+ls -a  // lista archivos incluyendo ocultos
+ls -l  // muestra información de carpetas, permisos, etc
+pwd  // muestra la carpeta en la que se trabaja
+////////////////////////////////////////////////////////////////////////
+
+CREAR
+////////////////////////////////////////////////////////////////////////
+mkdir folder   // crea una carpeta en el directorio actual
+touch archivo   // crea un archivo en el direcorio actual
+gedit         //crea y edita archivos de texto
+////////////////////////////////////////////////////////////////////////
+
+ELIMINAR
+////////////////////////////////////////////////////////////////////////
+rm archivo   // elimna un archivo
+rmdir folder   // elimina una carpeta vacia
+rm -r elimina una carpeta y su contenido
+mv archivo    // renombra o mueve archivos
+cp      //copia un archivo o carpeta
+////////////////////////////////////////////////////////////////////////
+
+NAVEGACIÓN
+////////////////////////////////////////////////////////////////////////
+cd folder     // ingresar a la carpeta especifica
+cd ..   // retrocede un nivel sobre las carpetas
+cd ./    //se ubica sobre la misma carpeta
+////////////////////////////////////////////////////////////////////////
+
+
+
+COMANDOS GIT 
+-------------------------------------------
+////////////////////////////////////////////////////////////////////////
+git config --global user.name "nombre de usuario"   // Establece usuario de forma permanente
+git config --global user.email email@email.com      // Establece email  de forma permanente
+git config --list                        // Muestra la configuración de GIT
+git init                           //crea un nuevo repositorio
+git status                             //muestra el estado de los archivos en su repositorio
+git add nombre_archivo_directorio     // agrega un archivo específico al stagin area
+git add .                           // agrega todos los archivos al Stagin area
+git commit -m "mensaje del commit"   // comitea un directorio o archivos
+git push origin master               // Envía los cambios al repositorio remoto
+git status                         // Realiza un seguimiento de los estados de los archivos
+git pull                     // Descarga los cambios que existen en el repositorio remoto
+git clone link             // Clonamos el repositorio en nuestra máquina
+//////////////////////////////////////////////////////////////////////
