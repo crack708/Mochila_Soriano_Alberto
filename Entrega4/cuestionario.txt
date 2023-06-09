@@ -1,0 +1,11 @@
+● ¿Por qué un lenguaje de programación sólo puede utilizarse en algunos sistemas operativos y en otros no?.
+
+	R= Derivado a sus diferentes arquitecturas de procesador y la interpretación que le pueda dar el sistema operativo
+
+● ¿Qué tipo de máquina virtual es virtualBox?.
+
+	R= Virtual box es un software de virtualización para arquitecturas x86/amd64, conocido como hipervisor de tipo 2.
+
+● Si tengo más de una máquina virtual instalada, y una se rompe, ¿esto afecta a las demás? ¿por qué?
+
+	R= No, por qué son maquinas independientes con su propio host
